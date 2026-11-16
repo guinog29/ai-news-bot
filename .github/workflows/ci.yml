@@ -1,0 +1,29 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          global-json-file: global.json
+
+      - name: Check formatting
+        run: dotnet format AiNewsBot.slnx --verify-no-changes
+
+      - name: Build
+        run: dotnet build AiNewsBot.slnx --configuration Release
+
+      - name: Test
+        run: dotnet test AiNewsBot.slnx --configuration Release --no-build

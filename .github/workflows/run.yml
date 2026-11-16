@@ -1,0 +1,63 @@
+name: Run
+
+# Fetches the sources, posts what is new to Discord and commits the state to the `state` branch (D3, D4, D15).
+on:
+  schedule:
+    # Every 30 minutes, at odd minutes: GitHub delays runs at the top of the hour (D4).
+    - cron: "17,47 * * * *"
+  workflow_dispatch:
+
+# Two overlapping runs would both read the same state and post duplicates.
+concurrency:
+  group: ai-news-bot-run
+  cancel-in-progress: false
+
+permissions:
+  contents: write # pushes the state branch
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          global-json-file: global.json
+
+      - name: Check out the state branch
+        run: |
+          if git ls-remote --exit-code --heads origin state > /dev/null; then
+            git fetch --depth=1 origin state:state
+            git worktree add state-data state
+          else
+            echo "No state branch yet: it will be created after this run, and every source will be seeded without posting."
+            git worktree add --orphan -b state state-data
+          fi
+
+      - name: Run the bot
+        env:
+          DISCORD_WEBHOOK_SUMMARY: ${{ secrets.DISCORD_WEBHOOK_SUMMARY }}
+          DISCORD_WEBHOOK_OFFICIAL: ${{ secrets.DISCORD_WEBHOOK_OFFICIAL }}
+          DISCORD_WEBHOOK_STATUS: ${{ secrets.DISCORD_WEBHOOK_STATUS }}
+        run: dotnet run --project src/AiNewsBot --configuration Release -- --state state-data/state.json
+
+      # Runs even when the bot failed: items already posted must be remembered, and so must the failure counters.
+      - name: Commit the state
+        if: always()
+        working-directory: state-data
+        run: |
+          if [ ! -f state.json ]; then
+            echo "No state file was written."
+            exit 0
+          fi
+          git add state.json
+          if git diff --cached --quiet; then
+            echo "State unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update state"
+          git push origin state
