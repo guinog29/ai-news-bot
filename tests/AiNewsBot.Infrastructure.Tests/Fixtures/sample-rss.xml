@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Example Blog</title>
+    <link>https://blog.example.com/</link>
+    <description>Fixture feed</description>
+    <item>
+      <title>  First   post
+        with messy whitespace </title>
+      <link>https://blog.example.com/first/?utm_source=rss</link>
+      <guid isPermaLink="false">urn:example:post:1</guid>
+      <pubDate>Sat, 14 Nov 2026 08:31:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>Second post without a guid</title>
+      <link>https://blog.example.com/second</link>
+      <pubDate>Fri, 13 Nov 2026 10:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Relative link post</title>
+      <link>/relative/path</link>
+      <guid>https://blog.example.com/relative/path</guid>
+    </item>
+    <item>
+      <title>Unsafe link is ignored</title>
+      <link>javascript:alert(1)</link>
+      <guid>unsafe</guid>
+    </item>
+    <item>
+      <title></title>
+      <link>https://blog.example.com/untitled</link>
+      <guid>untitled</guid>
+    </item>
+  </channel>
+</rss>

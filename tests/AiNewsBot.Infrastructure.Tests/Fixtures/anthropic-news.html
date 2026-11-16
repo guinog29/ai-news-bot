@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><title>Newsroom</title></head>
+<body>
+<nav>
+  <a href="/news">News</a>
+  <a href="/news/">News index</a>
+  <a href="/research">Research</a>
+</nav>
+<main>
+  <!-- Featured tile layout -->
+  <article class="tile">
+    <header>
+      <p><a class="link" href="/news/announcements">Announcements</a></p>
+      <time>Nov 9, 2026</time>
+    </header>
+    <a class="tileLink" href="/news/big-launch"><h3>Big launch of a   new model</h3><p>Summary text.</p></a>
+  </article>
+
+  <!-- List row layout; the same article appears again inside a hidden details panel -->
+  <ul>
+    <li class="row">
+      <div class="title"><a href="/news/expanding-partnership"><span><h3>Expanding our partnership</h3></span></a></div>
+      <div class="category"><a href="/news/partnerships">Partnerships</a></div>
+      <div class="date"><time>Oct 27, 2026</time></div>
+      <div class="details">
+        <a href="/news/expanding-partnership"><h3>Expanding our partnership</h3></a>
+      </div>
+    </li>
+    <li class="row">
+      <div class="title"><a href="/news/no-date-article"><h3>An article without a date</h3></a></div>
+    </li>
+    <li class="row">
+      <div class="title"><a href="/news/full-month-name"><h3>Full month name date</h3></a></div>
+      <div class="date"><time>September 22, 2026</time></div>
+    </li>
+  </ul>
+
+  <!-- Same article shown first without a date, later with one: the date must be kept -->
+  <a href="/news/late-date"><h3>Late date article</h3></a>
+  <article><a href="/news/late-date"><h3>Late date article</h3></a><time>Aug 3, 2026</time></article>
+
+  <!-- Not articles: category link, nested path, link without heading -->
+  <a href="/news/features">Features</a>
+  <a href="/news/category/sub"><h3>Nested path</h3></a>
+  <a href="/news/no-heading">Read more</a>
+</main>
+</body>
+</html>

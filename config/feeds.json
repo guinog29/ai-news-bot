@@ -1,0 +1,20 @@
+{
+  // Sources to read. "channel" is a logical key (D18): the webhook comes from DISCORD_WEBHOOK_<CHANNEL>.
+  // Types: "rss" (RSS or Atom) and "anthropic-news" (HTML collector for anthropic.com/news).
+  "sources": [
+    { "name": "AI News (Latent Space)", "channel": "summary",  "type": "rss",            "url": "https://latent.space/feeds/news.xml" },
+    { "name": "OpenAI",                 "channel": "official", "type": "rss",            "url": "https://openai.com/news/rss.xml" },
+    { "name": "Google DeepMind",        "channel": "official", "type": "rss",            "url": "https://deepmind.google/blog/rss.xml" },
+    { "name": "Hugging Face",           "channel": "official", "type": "rss",            "url": "https://huggingface.co/blog/feed.xml" },
+    { "name": "Mistral AI",             "channel": "official", "type": "rss",            "url": "https://mistral.ai/news/rss" },
+    { "name": "Anthropic",              "channel": "official", "type": "anthropic-news", "url": "https://www.anthropic.com/news" }
+  ],
+
+  // Limits (D6, D8, D11). Omitted values use the defaults shown here.
+  "options": {
+    "considerLatest": 50,
+    "maxSeenPerSource": 300,
+    "maxPostsPerSourcePerRun": 5,
+    "failureAlertThreshold": 4
+  }
+}
