@@ -73,7 +73,8 @@ Flow of each run:
 Solution structure:
 
 - `src/AiNewsBot`: console app (job entrypoint).
-- `src/AiNewsBot.Core`: models, source interfaces (`IFeedSource`), deduplication, rules.
+- `src/AiNewsBot.Core`: models, source interfaces (`IFeedSource`), deduplication, rules, and the
+  `NewsJob` that orchestrates a run.
 - `src/AiNewsBot.Infrastructure`: RSS reading (`System.ServiceModel.Syndication`), Anthropic HTML
   collector, Discord webhook client, state persistence.
 - `tests/`: unit tests with saved fixtures (XML and HTML), no network.
@@ -149,23 +150,59 @@ on the personal profile so it counts as portfolio. MIT license. Rejected: `disco
 consistent with the rest of the repository. Reason: versioned config without secrets, new channels
 without code changes, clear authorship of posts. Rejected: hardcoded URLs or secret names.
 
+### Implementation decisions
+
+Made while building v1; they refine the decisions above.
+
+**D19 — Only the newest N items of a source are considered per run (`considerLatest`, default 50).**
+Some feeds are huge (OpenAI returns about 1,400 items, Hugging Face about 900) while state only
+remembers a bounded list (D6). Without a window, old items that fell out of the remembered list would
+look new and be reposted. The window is always smaller than the remembered list, and the options
+validator enforces it. Items without a date count as the newest, and ties keep feed order.
+
+**D20 — Zero items from any source is a failure, for every source type.** Extends D12 from the Anthropic
+collector to all sources: an empty feed or an empty parse is almost always a break, never "no news".
+Failures are counted per source, reset on success, and alert once when the count reaches the threshold.
+A recovery message follows when the source works again.
+
+**D21 — Failure semantics of a run (refines D11).** Exit code 1 for any unhandled error (bad config,
+missing secret, state that cannot be read or written) and when every source failed in the same run.
+A single failing source, or a failing post, does not fail the run. A failed post stops that source for
+the run so order is kept, and the unposted items stay unseen and are retried next run (D5). State is
+saved even then, and the workflow commits it with `if: always()`.
+
+**D22 — The Anthropic collector reads structure, not CSS classes.** The page uses generated class names
+that change between builds. An article is a link to `/news/<slug>` that contains a heading; its date is
+the `<time>` inside the enclosing `article` or `li`. Category links have no heading and are ignored. The
+same article appears in several places on the page and is merged. AngleSharp is the one added package for
+this (an HTML5 parser with CSS selectors).
+
+Smaller choices: the Discord client uses a single `HttpClient`, not `IHttpClientFactory`, because the
+factory's default logging prints request URLs and a webhook URL is a secret. Embeds disable mentions.
+The default limits are in `config/feeds.json`.
+
 ## Open questions
 
-These depend on testing during implementation:
-
-- Whether the Mistral feed actually responds.
-- Real Hugging Face volume; if too high, filter it or move it to its own channel.
-- Concrete values for N (consecutive failures before alerting, items kept in state, post limit per run).
+- Real Hugging Face volume: if the cap of 5 per run is hit regularly, filter it or give it its own
+  channel.
+- Whether the keepalive's `enable` API call really resets the 60-day clock (D10). Unverified until it
+  has run in production; check the workflow still runs after about 60 days.
 - Whether a push to the `state` branch counts as activity for the 60-day rule (changes nothing, thanks
   to D10, but worth recording).
+- Whether the defaults for `considerLatest`, `maxPostsPerSourcePerRun` and `failureAlertThreshold` fit
+  real traffic; they are plain config and cheap to change.
+
+Resolved: the Mistral feed responds (checked on 2026-11-15 together with the other five sources).
 
 ## Next steps
 
 1. ~~Create the Discord server with the three channels and a webhook for each.~~ Done.
 2. ~~Create the repository and configure the secrets.~~ Done.
 3. ~~Scaffold the solution, `CLAUDE.md`, README and this document.~~ Done.
-4. Implement v1 following this document.
-5. Run for one or two weeks and evaluate volume, English difficulty and failures.
+4. ~~Implement v1 following this document.~~ Done, with unit tests and a live smoke test using fake webhooks.
+5. Merge to `main`, then trigger the `Run` workflow by hand once: the first run seeds the `state` branch
+   without posting. Check the next scheduled run posts only genuinely new items.
+6. Run for one or two weeks and evaluate volume, English difficulty and failures.
 
 ## References
 
