@@ -3,7 +3,16 @@
   // Types: "rss" (RSS or Atom) and "anthropic-news" (HTML collector for anthropic.com/news).
   "sources": [
     { "name": "AI News (Latent Space)", "channel": "summary",  "type": "rss",            "url": "https://latent.space/feeds/news.xml" },
-    { "name": "OpenAI",                 "channel": "official", "type": "rss",            "url": "https://openai.com/news/rss.xml" },
+    { "name": "Simon Willison",         "channel": "summary",  "type": "rss",            "url": "https://simonwillison.net/atom/everything/" },
+    { "name": "TechCrunch AI",          "channel": "summary",  "type": "rss",            "url": "https://techcrunch.com/category/artificial-intelligence/feed/" },
+    { "name": "The Verge AI",           "channel": "summary",  "type": "rss",            "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml" },
+    { "name": "Ars Technica AI",        "channel": "summary",  "type": "rss",            "url": "https://arstechnica.com/ai/feed/" },
+    { "name": "MIT Technology Review AI", "channel": "summary", "type": "rss",            "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed" },
+    { "name": "The Decoder",            "channel": "summary",  "type": "rss",            "url": "https://the-decoder.com/feed/" },
+    { "name": "Import AI",              "channel": "summary",  "type": "rss",            "url": "https://importai.substack.com/feed" },
+    { "name": "Interconnects",          "channel": "summary",  "type": "rss",            "url": "https://www.interconnects.ai/feed" },
+    { "name": "GitHub AI & ML",         "channel": "official", "type": "rss",            "url": "https://github.blog/ai-and-ml/feed/" },
+    { "name": "OpenAI",                "channel": "official", "type": "rss",            "url": "https://openai.com/news/rss.xml" },
     { "name": "Google DeepMind",        "channel": "official", "type": "rss",            "url": "https://deepmind.google/blog/rss.xml" },
     { "name": "Hugging Face",           "channel": "official", "type": "rss",            "url": "https://huggingface.co/blog/feed.xml" },
     { "name": "Mistral AI",             "channel": "official", "type": "rss",            "url": "https://mistral.ai/news/rss" },
