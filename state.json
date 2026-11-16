@@ -4,7 +4,7 @@
     "AI News (Latent Space)": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-16T02:45:45.8464697+00:00",
+      "lastSuccessAt": "2026-11-16T10:11:41.1809455+00:00",
       "seenIds": [
         "guid:urn:latent-space:post:post_5ecf266a-aa1c-4b9a-bcec-3c52bcc9ca63",
         "guid:urn:latent-space:post:post_f2e2c3b7-0166-4359-97b6-d24d8f24c73b",
@@ -31,7 +31,7 @@
     "Anthropic": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-16T02:45:46.8412685+00:00",
+      "lastSuccessAt": "2026-11-16T10:11:42.3470471+00:00",
       "seenIds": [
         "url:84757a8b6e04ab0dc5be5bc177eccc4e",
         "url:e63c44ee253751eb72aef3f2b8bd6200",
@@ -57,7 +57,7 @@
     "Google DeepMind": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-16T02:45:46.3230331+00:00",
+      "lastSuccessAt": "2026-11-16T10:11:41.6942643+00:00",
       "seenIds": [
         "guid:https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
         "guid:https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
@@ -114,7 +114,7 @@
     "Hugging Face": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-16T02:45:46.4706939+00:00",
+      "lastSuccessAt": "2026-11-16T10:11:41.773985+00:00",
       "seenIds": [
         "guid:https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
         "guid:https://huggingface.co/blog/allenai/xybench",
@@ -171,7 +171,7 @@
     "Mistral AI": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-16T02:45:46.5488949+00:00",
+      "lastSuccessAt": "2026-11-16T10:11:41.8651296+00:00",
       "seenIds": [
         "guid:https://mistral.ai/news/build-with-studio/",
         "guid:https://mistral.ai/news/mistral-large-4-oss/",
@@ -228,8 +228,9 @@
     "OpenAI": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-16T02:45:45.9573187+00:00",
+      "lastSuccessAt": "2026-11-16T10:11:41.5742356+00:00",
       "seenIds": [
+        "guid:https://openai.com/index/lvmh-media-division-partnership",
         "guid:https://openai.com/index/step-toward-defining-the-standard-model",
         "guid:https://openai.com/index/our-new-blog-for-science",
         "guid:https://openai.com/index/introducing-chatgpt-wallet",
