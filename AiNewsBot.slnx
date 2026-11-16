@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/AiNewsBot.Core/AiNewsBot.Core.csproj" />
+    <Project Path="src/AiNewsBot.Infrastructure/AiNewsBot.Infrastructure.csproj" />
+    <Project Path="src/AiNewsBot/AiNewsBot.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/AiNewsBot.Core.Tests/AiNewsBot.Core.Tests.csproj" />
+    <Project Path="tests/AiNewsBot.Infrastructure.Tests/AiNewsBot.Infrastructure.Tests.csproj" />
+  </Folder>
+</Solution>
