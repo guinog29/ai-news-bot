@@ -4,8 +4,9 @@
     "AI News (Latent Space)": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-17T03:12:36.7360386+00:00",
+      "lastSuccessAt": "2026-11-17T11:53:35.8739935+00:00",
       "seenIds": [
+        "guid:urn:latent-space:post:post_ae3c512d-675f-4368-9e24-ad45b6d484fd",
         "guid:urn:latent-space:post:post_5ecf266a-aa1c-4b9a-bcec-3c52bcc9ca63",
         "guid:urn:latent-space:post:post_f2e2c3b7-0166-4359-97b6-d24d8f24c73b",
         "guid:urn:latent-space:post:post_abc084f4-e464-450c-ad72-066cf5d3dfef",
@@ -31,7 +32,7 @@
     "Anthropic": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-17T03:12:41.5982999+00:00",
+      "lastSuccessAt": "2026-11-17T11:53:40.3453178+00:00",
       "seenIds": [
         "url:84757a8b6e04ab0dc5be5bc177eccc4e",
         "url:e63c44ee253751eb72aef3f2b8bd6200",
@@ -57,7 +58,7 @@
     "Ars Technica AI": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-17T03:12:38.8474281+00:00",
+      "lastSuccessAt": "2026-11-17T11:53:36.952245+00:00",
       "seenIds": [
         "guid:https://arstechnica.com/ai/2026/11/robo-soldier-startup-backed-by-eric-trump-misses-payroll-may-collapse/",
         "guid:https://arstechnica.com/tech-policy/2026/11/us-moves-to-cut-chinas-remote-access-to-ai-chips/",
@@ -85,7 +86,7 @@
     "GitHub AI \u0026 ML": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-17T03:12:40.4146325+00:00",
+      "lastSuccessAt": "2026-11-17T11:53:38.8616936+00:00",
       "seenIds": [
         "guid:https://github.blog/?p=100122",
         "guid:https://github.blog/?p=100047",
@@ -102,7 +103,7 @@
     "Google DeepMind": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-17T03:12:41.0854787+00:00",
+      "lastSuccessAt": "2026-11-17T11:53:39.7590105+00:00",
       "seenIds": [
         "guid:https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
         "guid:https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
@@ -159,7 +160,7 @@
     "Hugging Face": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-17T03:12:41.2226918+00:00",
+      "lastSuccessAt": "2026-11-17T11:53:39.9375218+00:00",
       "seenIds": [
         "guid:https://huggingface.co/blog/openrouter",
         "guid:https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
@@ -216,7 +217,7 @@
     },
     "Import AI": {
       "seeded": true,
-      "consecutiveFailures": 0,
+      "consecutiveFailures": 1,
       "lastSuccessAt": "2026-11-17T03:12:40.1919095+00:00",
       "seenIds": [
         "guid:https://importai.substack.com/p/import-ai-481-ai-sub-contractors",
@@ -244,7 +245,7 @@
     "Interconnects": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-17T03:12:40.3085206+00:00",
+      "lastSuccessAt": "2026-11-17T11:53:38.5758909+00:00",
       "seenIds": [
         "guid:https://www.interconnects.ai/p/open-source-ai-without-jensen",
         "guid:https://www.interconnects.ai/p/how-well-can-we-measure-open-model",
@@ -271,7 +272,7 @@
     "MIT Technology Review AI": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-17T03:12:38.8989562+00:00",
+      "lastSuccessAt": "2026-11-17T11:53:37.1381995+00:00",
       "seenIds": [
         "guid:https://www.technologyreview.com/?p=1148624",
         "guid:https://www.technologyreview.com/?p=1148565",
@@ -288,7 +289,7 @@
     "Mistral AI": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-17T03:12:41.3338502+00:00",
+      "lastSuccessAt": "2026-11-17T11:53:40.0063434+00:00",
       "seenIds": [
         "guid:https://mistral.ai/news/build-with-studio/",
         "guid:https://mistral.ai/news/mistral-large-4-oss/",
@@ -345,8 +346,10 @@
     "OpenAI": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-17T03:12:40.7542294+00:00",
+      "lastSuccessAt": "2026-11-17T11:53:39.367354+00:00",
       "seenIds": [
+        "guid:https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+        "guid:https://openai.com/business/customer-stories/revolut",
         "guid:https://openai.com/business/customer-stories/holiday-extras-dots",
         "guid:https://openai.com/index/expanding-chatgpt-for-academic-researchers",
         "guid:https://openai.com/index/strengthening-online-child-safety",
@@ -411,8 +414,9 @@
     "Simon Willison": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-17T03:12:37.1648642+00:00",
+      "lastSuccessAt": "2026-11-17T11:53:36.2432923+00:00",
       "seenIds": [
+        "guid:https://simonwillison.net/2026/Nov/17/go-proverbs/",
         "guid:https://simonwillison.net/2026/Nov/16/llm/",
         "guid:https://simonwillison.net/2026/Nov/15/datasette-maplibre/",
         "guid:https://simonwillison.net/2026/Nov/15/datasette/",
@@ -449,7 +453,7 @@
     "TechCrunch AI": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-17T03:12:37.6240278+00:00",
+      "lastSuccessAt": "2026-11-17T11:53:36.3434413+00:00",
       "seenIds": [
         "guid:https://techcrunch.com/?p=3189297",
         "guid:https://techcrunch.com/?p=3189019",
@@ -478,7 +482,7 @@
     "The Decoder": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-17T03:12:40.1243457+00:00",
+      "lastSuccessAt": "2026-11-17T11:53:38.4310717+00:00",
       "seenIds": [
         "guid:https://the-decoder.com/?p=42951",
         "guid:https://the-decoder.com/?p=42931",
@@ -495,7 +499,7 @@
     "The Verge AI": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-17T03:12:38.356424+00:00",
+      "lastSuccessAt": "2026-11-17T11:53:36.4357079+00:00",
       "seenIds": [
         "guid:https://www.theverge.com/?p=1035027",
         "guid:https://www.theverge.com/?p=1034815",
