@@ -4,8 +4,9 @@
     "AI News (Latent Space)": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-18T02:55:03.6225505+00:00",
+      "lastSuccessAt": "2026-11-18T11:44:18.0172239+00:00",
       "seenIds": [
+        "guid:urn:latent-space:post:post_8e49a725-4572-4981-9894-4fbf63aed272",
         "guid:urn:latent-space:post:post_ae3c512d-675f-4368-9e24-ad45b6d484fd",
         "guid:urn:latent-space:post:post_5ecf266a-aa1c-4b9a-bcec-3c52bcc9ca63",
         "guid:urn:latent-space:post:post_f2e2c3b7-0166-4359-97b6-d24d8f24c73b",
@@ -32,7 +33,7 @@
     "Anthropic": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-18T02:55:12.1104998+00:00",
+      "lastSuccessAt": "2026-11-18T11:44:23.2668303+00:00",
       "seenIds": [
         "url:84757a8b6e04ab0dc5be5bc177eccc4e",
         "url:e63c44ee253751eb72aef3f2b8bd6200",
@@ -58,7 +59,7 @@
     "Ars Technica AI": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-18T02:55:08.7754529+00:00",
+      "lastSuccessAt": "2026-11-18T11:44:19.0498677+00:00",
       "seenIds": [
         "guid:https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote/",
         "guid:https://arstechnica.com/tech-policy/2026/11/trump-was-in-bed-with-jensen-critics-balk-at-huangs-wish-to-return-to-nvidia/",
@@ -90,7 +91,7 @@
     "GitHub AI \u0026 ML": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-18T02:55:10.7728266+00:00",
+      "lastSuccessAt": "2026-11-18T11:44:22.2701078+00:00",
       "seenIds": [
         "guid:https://github.blog/?p=100122",
         "guid:https://github.blog/?p=100047",
@@ -107,7 +108,7 @@
     "Google DeepMind": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-18T02:55:11.4769611+00:00",
+      "lastSuccessAt": "2026-11-18T11:44:22.660868+00:00",
       "seenIds": [
         "guid:https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
         "guid:https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
@@ -164,7 +165,7 @@
     "Hugging Face": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-18T02:55:11.6417155+00:00",
+      "lastSuccessAt": "2026-11-18T11:44:22.8057121+00:00",
       "seenIds": [
         "guid:https://huggingface.co/blog/openrouter",
         "guid:https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
@@ -221,7 +222,7 @@
     },
     "Import AI": {
       "seeded": true,
-      "consecutiveFailures": 3,
+      "consecutiveFailures": 4,
       "lastSuccessAt": "2026-11-17T03:12:40.1919095+00:00",
       "seenIds": [
         "guid:https://importai.substack.com/p/import-ai-481-ai-sub-contractors",
@@ -249,7 +250,7 @@
     "Interconnects": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-18T02:55:10.4951304+00:00",
+      "lastSuccessAt": "2026-11-18T11:44:21.7827241+00:00",
       "seenIds": [
         "guid:https://www.interconnects.ai/p/open-source-ai-without-jensen",
         "guid:https://www.interconnects.ai/p/how-well-can-we-measure-open-model",
@@ -276,8 +277,9 @@
     "MIT Technology Review AI": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-18T02:55:08.8769799+00:00",
+      "lastSuccessAt": "2026-11-18T11:44:19.3532879+00:00",
       "seenIds": [
+        "guid:https://www.technologyreview.com/?p=1148816",
         "guid:https://www.technologyreview.com/?p=1148203",
         "guid:https://www.technologyreview.com/?p=1148624",
         "guid:https://www.technologyreview.com/?p=1148565",
@@ -294,7 +296,7 @@
     "Mistral AI": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-18T02:55:11.8150674+00:00",
+      "lastSuccessAt": "2026-11-18T11:44:22.958137+00:00",
       "seenIds": [
         "guid:https://mistral.ai/news/build-with-studio/",
         "guid:https://mistral.ai/news/mistral-large-4-oss/",
@@ -351,8 +353,9 @@
     "OpenAI": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-18T02:55:11.3078236+00:00",
+      "lastSuccessAt": "2026-11-18T11:44:22.5838666+00:00",
       "seenIds": [
+        "guid:https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
         "guid:https://openai.com/index/introducing-chatgpt-for-sales",
         "guid:https://openai.com/index/introducing-gpt-6-2-astra-sol",
         "guid:https://openai.com/index/introducing-openai-for-chile",
@@ -425,7 +428,7 @@
     "Simon Willison": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-18T02:55:05.1145755+00:00",
+      "lastSuccessAt": "2026-11-18T11:44:18.1408293+00:00",
       "seenIds": [
         "guid:https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
         "guid:https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
@@ -467,8 +470,9 @@
     "TechCrunch AI": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-18T02:55:07.046377+00:00",
+      "lastSuccessAt": "2026-11-18T11:44:18.393112+00:00",
       "seenIds": [
+        "guid:https://techcrunch.com/?p=3188451",
         "guid:https://techcrunch.com/?p=3189878",
         "guid:https://techcrunch.com/?p=3189812",
         "guid:https://techcrunch.com/?p=3189789",
@@ -518,8 +522,9 @@
     "The Decoder": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-18T02:55:10.1459362+00:00",
+      "lastSuccessAt": "2026-11-18T11:44:21.3334548+00:00",
       "seenIds": [
+        "guid:https://the-decoder.com/?p=42999",
         "guid:https://the-decoder.com/?p=42982",
         "guid:https://the-decoder.com/?p=42964",
         "guid:https://the-decoder.com/?p=42962",
@@ -542,8 +547,9 @@
     "The Verge AI": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-18T02:55:08.1067271+00:00",
+      "lastSuccessAt": "2026-11-18T11:44:18.6601452+00:00",
       "seenIds": [
+        "guid:https://www.theverge.com/?p=1036415",
         "guid:https://www.theverge.com/?p=1036111",
         "guid:https://www.theverge.com/?p=1036032",
         "guid:https://www.theverge.com/?p=1035957",
