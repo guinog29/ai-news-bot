@@ -4,8 +4,9 @@
     "AI News (Latent Space)": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-19T01:30:36.9713697+00:00",
+      "lastSuccessAt": "2026-11-19T09:30:58.9929984+00:00",
       "seenIds": [
+        "guid:urn:latent-space:post:post_16b7c005-6ab8-4b06-8b1e-8f29a24d706e",
         "guid:urn:latent-space:post:post_8e49a725-4572-4981-9894-4fbf63aed272",
         "guid:urn:latent-space:post:post_ae3c512d-675f-4368-9e24-ad45b6d484fd",
         "guid:urn:latent-space:post:post_5ecf266a-aa1c-4b9a-bcec-3c52bcc9ca63",
@@ -33,7 +34,7 @@
     "Anthropic": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-19T01:30:45.0651478+00:00",
+      "lastSuccessAt": "2026-11-19T09:31:02.0021938+00:00",
       "seenIds": [
         "url:e308a84a77ae00d83193b9513b7cd6eb",
         "url:84757a8b6e04ab0dc5be5bc177eccc4e",
@@ -60,7 +61,7 @@
     "Ars Technica AI": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-19T01:30:41.3274265+00:00",
+      "lastSuccessAt": "2026-11-19T09:30:59.7214394+00:00",
       "seenIds": [
         "guid:https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show/",
         "guid:https://arstechnica.com/gaming/2026/11/will-wrights-next-simulation-will-use-ai-to-mine-content-from-your-memories/",
@@ -94,7 +95,7 @@
     "GitHub AI \u0026 ML": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-19T01:30:43.1275695+00:00",
+      "lastSuccessAt": "2026-11-19T09:31:01.313503+00:00",
       "seenIds": [
         "guid:https://github.blog/?p=100122",
         "guid:https://github.blog/?p=100047",
@@ -111,7 +112,7 @@
     "Google DeepMind": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-19T01:30:44.2638996+00:00",
+      "lastSuccessAt": "2026-11-19T09:31:01.5307262+00:00",
       "seenIds": [
         "guid:https://deepmind.google/blog/introducing-gemini-4-neon/",
         "guid:https://deepmind.google/blog/genie-4-is-now-available/",
@@ -170,7 +171,7 @@
     "Hugging Face": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-19T01:30:44.5060127+00:00",
+      "lastSuccessAt": "2026-11-19T09:31:01.5886264+00:00",
       "seenIds": [
         "guid:https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
         "guid:https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
@@ -232,7 +233,7 @@
     },
     "Import AI": {
       "seeded": true,
-      "consecutiveFailures": 6,
+      "consecutiveFailures": 7,
       "lastSuccessAt": "2026-11-17T03:12:40.1919095+00:00",
       "seenIds": [
         "guid:https://importai.substack.com/p/import-ai-481-ai-sub-contractors",
@@ -260,7 +261,7 @@
     "Interconnects": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-19T01:30:43.0603066+00:00",
+      "lastSuccessAt": "2026-11-19T09:31:01.2564346+00:00",
       "seenIds": [
         "guid:https://www.interconnects.ai/p/open-source-ai-without-jensen",
         "guid:https://www.interconnects.ai/p/how-well-can-we-measure-open-model",
@@ -287,7 +288,7 @@
     "MIT Technology Review AI": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-19T01:30:41.3684286+00:00",
+      "lastSuccessAt": "2026-11-19T09:30:59.7806259+00:00",
       "seenIds": [
         "guid:https://www.technologyreview.com/?p=1148650",
         "guid:https://www.technologyreview.com/?p=1148816",
@@ -307,7 +308,7 @@
     "Mistral AI": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-19T01:30:44.552473+00:00",
+      "lastSuccessAt": "2026-11-19T09:31:01.6973062+00:00",
       "seenIds": [
         "guid:https://mistral.ai/news/build-with-studio/",
         "guid:https://mistral.ai/news/mistral-large-4-oss/",
@@ -364,7 +365,7 @@
     "OpenAI": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-19T01:30:43.9415225+00:00",
+      "lastSuccessAt": "2026-11-19T09:31:01.3824193+00:00",
       "seenIds": [
         "guid:https://openai.com/index/research-acceleration-jagged-frontier",
         "guid:https://openai.com/business/customer-stories/sumitomo-life",
@@ -445,8 +446,10 @@
     "Simon Willison": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-19T01:30:37.1065624+00:00",
+      "lastSuccessAt": "2026-11-19T09:30:59.3959867+00:00",
       "seenIds": [
+        "guid:https://simonwillison.net/2026/Nov/18/llm-gemini/",
+        "guid:https://simonwillison.net/2026/Nov/18/datasette-arrows/",
         "guid:https://simonwillison.net/2026/Nov/18/daniel-stenberg/",
         "guid:https://simonwillison.net/2026/Nov/18/psf-end-of-year-fundraiser/",
         "guid:https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
@@ -489,7 +492,7 @@
     "TechCrunch AI": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-19T01:30:38.339805+00:00",
+      "lastSuccessAt": "2026-11-19T09:30:59.4775342+00:00",
       "seenIds": [
         "guid:https://techcrunch.com/?p=3190274",
         "guid:https://techcrunch.com/?p=3190239",
@@ -558,7 +561,7 @@
     "The Decoder": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-19T01:30:42.9714847+00:00",
+      "lastSuccessAt": "2026-11-19T09:31:01.1294781+00:00",
       "seenIds": [
         "guid:https://the-decoder.com/?p=43053",
         "guid:https://the-decoder.com/?p=43050",
@@ -594,7 +597,7 @@
     "The Verge AI": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-19T01:30:41.1923526+00:00",
+      "lastSuccessAt": "2026-11-19T09:30:59.534674+00:00",
       "seenIds": [
         "guid:https://www.theverge.com/?p=1037151",
         "guid:https://www.theverge.com/?p=1036749",
