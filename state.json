@@ -4,8 +4,9 @@
     "AI News (Latent Space)": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-20T00:56:18.9674325+00:00",
+      "lastSuccessAt": "2026-11-20T08:34:30.6545919+00:00",
       "seenIds": [
+        "guid:urn:latent-space:post:post_a954b2a3-7633-4f51-bdca-627a4cc7f380",
         "guid:urn:latent-space:post:post_16b7c005-6ab8-4b06-8b1e-8f29a24d706e",
         "guid:urn:latent-space:post:post_8e49a725-4572-4981-9894-4fbf63aed272",
         "guid:urn:latent-space:post:post_ae3c512d-675f-4368-9e24-ad45b6d484fd",
@@ -34,7 +35,7 @@
     "Anthropic": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-20T00:56:25.9867354+00:00",
+      "lastSuccessAt": "2026-11-20T08:34:34.3953525+00:00",
       "seenIds": [
         "url:e308a84a77ae00d83193b9513b7cd6eb",
         "url:84757a8b6e04ab0dc5be5bc177eccc4e",
@@ -61,7 +62,7 @@
     "Ars Technica AI": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-20T00:56:23.0854304+00:00",
+      "lastSuccessAt": "2026-11-20T08:34:31.551584+00:00",
       "seenIds": [
         "guid:https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert/",
         "guid:https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show/",
@@ -96,7 +97,7 @@
     "GitHub AI \u0026 ML": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-20T00:56:24.7878686+00:00",
+      "lastSuccessAt": "2026-11-20T08:34:33.5903373+00:00",
       "seenIds": [
         "guid:https://github.blog/?p=100122",
         "guid:https://github.blog/?p=100047",
@@ -113,7 +114,7 @@
     "Google DeepMind": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-20T00:56:25.5446059+00:00",
+      "lastSuccessAt": "2026-11-20T08:34:33.8175813+00:00",
       "seenIds": [
         "guid:https://deepmind.google/blog/introducing-gemini-4-neon/",
         "guid:https://deepmind.google/blog/genie-4-is-now-available/",
@@ -172,7 +173,7 @@
     "Hugging Face": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-20T00:56:25.6164009+00:00",
+      "lastSuccessAt": "2026-11-20T08:34:33.9904755+00:00",
       "seenIds": [
         "guid:https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
         "guid:https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
@@ -234,7 +235,7 @@
     },
     "Import AI": {
       "seeded": true,
-      "consecutiveFailures": 9,
+      "consecutiveFailures": 10,
       "lastSuccessAt": "2026-11-17T03:12:40.1919095+00:00",
       "seenIds": [
         "guid:https://importai.substack.com/p/import-ai-481-ai-sub-contractors",
@@ -262,7 +263,7 @@
     "Interconnects": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-20T00:56:24.7383464+00:00",
+      "lastSuccessAt": "2026-11-20T08:34:33.322716+00:00",
       "seenIds": [
         "guid:https://www.interconnects.ai/p/open-source-ai-without-jensen",
         "guid:https://www.interconnects.ai/p/how-well-can-we-measure-open-model",
@@ -289,7 +290,7 @@
     "MIT Technology Review AI": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-20T00:56:23.1217023+00:00",
+      "lastSuccessAt": "2026-11-20T08:34:31.6947034+00:00",
       "seenIds": [
         "guid:https://www.technologyreview.com/?p=1148650",
         "guid:https://www.technologyreview.com/?p=1148816",
@@ -309,7 +310,7 @@
     "Mistral AI": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-20T00:56:25.6691648+00:00",
+      "lastSuccessAt": "2026-11-20T08:34:34.0599144+00:00",
       "seenIds": [
         "guid:https://mistral.ai/news/build-with-studio/",
         "guid:https://mistral.ai/news/mistral-large-4-oss/",
@@ -366,7 +367,7 @@
     "OpenAI": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-20T00:56:25.4515839+00:00",
+      "lastSuccessAt": "2026-11-20T08:34:33.6858936+00:00",
       "seenIds": [
         "guid:https://openai.com/business/learn/deploying-daybreak-red",
         "guid:https://openai.com/business/learn/pr-scans-demo",
@@ -452,8 +453,9 @@
     "Simon Willison": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-20T00:56:19.325548+00:00",
+      "lastSuccessAt": "2026-11-20T08:34:30.9892038+00:00",
       "seenIds": [
+        "guid:https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/",
         "guid:https://simonwillison.net/2026/Nov/19/postgresql-19/",
         "guid:https://simonwillison.net/2026/Nov/18/llm-gemini/",
         "guid:https://simonwillison.net/2026/Nov/18/datasette-arrows/",
@@ -499,7 +501,7 @@
     "TechCrunch AI": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-20T00:56:20.1240332+00:00",
+      "lastSuccessAt": "2026-11-20T08:34:31.080486+00:00",
       "seenIds": [
         "guid:https://techcrunch.com/?p=3190713",
         "guid:https://techcrunch.com/?p=3190498",
@@ -581,7 +583,7 @@
     "The Decoder": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-20T00:56:24.6444727+00:00",
+      "lastSuccessAt": "2026-11-20T08:34:33.1678765+00:00",
       "seenIds": [
         "guid:https://the-decoder.com/?p=43100",
         "guid:https://the-decoder.com/?p=43092",
@@ -624,7 +626,7 @@
     "The Verge AI": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-20T00:56:22.8544896+00:00",
+      "lastSuccessAt": "2026-11-20T08:34:31.1417478+00:00",
       "seenIds": [
         "guid:https://www.theverge.com/?p=1038227",
         "guid:https://www.theverge.com/?p=1038063",
