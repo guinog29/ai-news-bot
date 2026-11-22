@@ -4,7 +4,7 @@
     "AI News (Latent Space)": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-22T15:42:06.0704722+00:00",
+      "lastSuccessAt": "2026-11-22T21:17:27.0610858+00:00",
       "seenIds": [
         "guid:urn:latent-space:post:post_3976c9e6-ac0c-4bf2-92c8-c83510a92539",
         "guid:urn:latent-space:post:post_a954b2a3-7633-4f51-bdca-627a4cc7f380",
@@ -36,7 +36,7 @@
     "Anthropic": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-22T15:42:09.7985149+00:00",
+      "lastSuccessAt": "2026-11-22T21:17:31.3259729+00:00",
       "seenIds": [
         "url:fd109fdc361c3cd3d5827b792d4795d4",
         "url:e308a84a77ae00d83193b9513b7cd6eb",
@@ -64,7 +64,7 @@
     "Ars Technica AI": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-22T15:42:06.9924851+00:00",
+      "lastSuccessAt": "2026-11-22T21:17:28.5786388+00:00",
       "seenIds": [
         "guid:https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
         "guid:https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
@@ -102,7 +102,7 @@
     "GitHub AI \u0026 ML": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-22T15:42:09.1503978+00:00",
+      "lastSuccessAt": "2026-11-22T21:17:30.2955117+00:00",
       "seenIds": [
         "guid:https://github.blog/?p=100122",
         "guid:https://github.blog/?p=100047",
@@ -119,7 +119,7 @@
     "Google DeepMind": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-22T15:42:09.3166454+00:00",
+      "lastSuccessAt": "2026-11-22T21:17:30.8013543+00:00",
       "seenIds": [
         "guid:https://deepmind.google/blog/introducing-gemini-4-neon/",
         "guid:https://deepmind.google/blog/genie-4-is-now-available/",
@@ -178,7 +178,7 @@
     "Hugging Face": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-22T15:42:09.3768756+00:00",
+      "lastSuccessAt": "2026-11-22T21:17:30.8804861+00:00",
       "seenIds": [
         "guid:https://huggingface.co/blog/inkling2mini",
         "guid:https://huggingface.co/blog/harness-adapters-at-scale",
@@ -242,7 +242,7 @@
     },
     "Import AI": {
       "seeded": true,
-      "consecutiveFailures": 1,
+      "consecutiveFailures": 2,
       "lastSuccessAt": "2026-11-22T07:29:47.8951154+00:00",
       "seenIds": [
         "guid:https://importai.substack.com/p/import-ai-481-ai-sub-contractors",
@@ -270,7 +270,7 @@
     "Interconnects": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-22T15:42:09.1067238+00:00",
+      "lastSuccessAt": "2026-11-22T21:17:30.0906612+00:00",
       "seenIds": [
         "guid:https://www.interconnects.ai/p/open-source-ai-without-jensen",
         "guid:https://www.interconnects.ai/p/how-well-can-we-measure-open-model",
@@ -297,7 +297,7 @@
     "MIT Technology Review AI": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-22T15:42:07.043862+00:00",
+      "lastSuccessAt": "2026-11-22T21:17:28.6454553+00:00",
       "seenIds": [
         "guid:https://www.technologyreview.com/?p=1149399",
         "guid:https://www.technologyreview.com/?p=1148650",
@@ -318,7 +318,7 @@
     "Mistral AI": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-22T15:42:09.4318132+00:00",
+      "lastSuccessAt": "2026-11-22T21:17:30.9615512+00:00",
       "seenIds": [
         "guid:https://mistral.ai/news/build-with-studio/",
         "guid:https://mistral.ai/news/mistral-large-4-oss/",
@@ -375,8 +375,9 @@
     "OpenAI": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-22T15:42:09.2109879+00:00",
+      "lastSuccessAt": "2026-11-22T21:17:30.5515286+00:00",
       "seenIds": [
+        "guid:https://openai.com/index/perplexity-and-intelligence",
         "guid:https://openai.com/index/combatting-adversarial-distillation",
         "guid:https://openai.com/business/customer-stories/hebbia",
         "guid:https://openai.com/index/introducing-medchembench",
@@ -464,7 +465,7 @@
     "Simon Willison": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-22T15:42:06.17366+00:00",
+      "lastSuccessAt": "2026-11-22T21:17:27.1885757+00:00",
       "seenIds": [
         "guid:https://simonwillison.net/2026/Nov/21/muru/",
         "guid:https://simonwillison.net/2026/Nov/20/llm-gemini/",
@@ -516,8 +517,10 @@
     "TechCrunch AI": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-22T15:42:06.2454306+00:00",
+      "lastSuccessAt": "2026-11-22T21:17:28.1482115+00:00",
       "seenIds": [
+        "guid:https://techcrunch.com/?p=3191164",
+        "guid:https://techcrunch.com/?p=3191157",
         "guid:https://techcrunch.com/?p=3191147",
         "guid:https://techcrunch.com/?p=3191145",
         "guid:https://techcrunch.com/?p=3173132",
@@ -607,7 +610,7 @@
     "The Decoder": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-22T15:42:08.9689106+00:00",
+      "lastSuccessAt": "2026-11-22T21:17:29.9219713+00:00",
       "seenIds": [
         "guid:https://the-decoder.com/?p=43203",
         "guid:https://the-decoder.com/?p=43193",
@@ -671,8 +674,9 @@
     "The Verge AI": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-22T15:42:06.7882852+00:00",
+      "lastSuccessAt": "2026-11-22T21:17:28.4480182+00:00",
       "seenIds": [
+        "guid:https://www.theverge.com/?p=1039770",
         "guid:https://www.theverge.com/?p=1039139",
         "guid:https://www.theverge.com/?p=1039554",
         "guid:https://www.theverge.com/?p=1038701",
