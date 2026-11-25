@@ -4,8 +4,9 @@
     "AI News (Latent Space)": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-25T01:38:57.4697665+00:00",
+      "lastSuccessAt": "2026-11-25T10:32:24.0306368+00:00",
       "seenIds": [
+        "guid:urn:latent-space:post:post_d721d443-2cdb-44ba-8da8-666b8311df8b",
         "guid:urn:latent-space:post:post_7482e5b8-089f-4955-b288-dfe47c243039",
         "guid:urn:latent-space:post:post_3976c9e6-ac0c-4bf2-92c8-c83510a92539",
         "guid:urn:latent-space:post:post_a954b2a3-7633-4f51-bdca-627a4cc7f380",
@@ -37,7 +38,7 @@
     "Anthropic": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-25T01:39:05.1249202+00:00",
+      "lastSuccessAt": "2026-11-25T10:32:27.078647+00:00",
       "seenIds": [
         "url:fd109fdc361c3cd3d5827b792d4795d4",
         "url:e308a84a77ae00d83193b9513b7cd6eb",
@@ -65,7 +66,7 @@
     "Ars Technica AI": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-25T01:39:00.96142+00:00",
+      "lastSuccessAt": "2026-11-25T10:32:24.6976619+00:00",
       "seenIds": [
         "guid:https://arstechnica.com/ai/2026/11/whats-going-on-with-the-riemann-hypothesis/",
         "guid:https://arstechnica.com/gadgets/2026/11/faa-opens-probe-after-amazon-delivery-drone-clips-cable-crashes-into-garage/",
@@ -111,7 +112,7 @@
     "GitHub AI \u0026 ML": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-25T01:39:03.1706515+00:00",
+      "lastSuccessAt": "2026-11-25T10:32:26.0986838+00:00",
       "seenIds": [
         "guid:https://github.blog/?p=100122",
         "guid:https://github.blog/?p=100047",
@@ -128,7 +129,7 @@
     "Google DeepMind": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-25T01:39:04.6271715+00:00",
+      "lastSuccessAt": "2026-11-25T10:32:26.2869838+00:00",
       "seenIds": [
         "guid:https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
         "guid:https://deepmind.google/blog/introducing-gemini-4-neon/",
@@ -188,8 +189,9 @@
     "Hugging Face": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-25T01:39:04.7579655+00:00",
+      "lastSuccessAt": "2026-11-25T10:32:26.6399592+00:00",
       "seenIds": [
+        "guid:https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
         "guid:https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
         "guid:https://huggingface.co/blog/allenai/robotrack",
         "guid:https://huggingface.co/blog/agentic-evals",
@@ -255,7 +257,7 @@
     },
     "Import AI": {
       "seeded": true,
-      "consecutiveFailures": 0,
+      "consecutiveFailures": 1,
       "lastSuccessAt": "2026-11-25T01:39:02.9400454+00:00",
       "seenIds": [
         "guid:https://importai.substack.com/p/import-ai-482-huawei-kernel-benchmarks",
@@ -284,7 +286,7 @@
     "Interconnects": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-25T01:39:03.0626331+00:00",
+      "lastSuccessAt": "2026-11-25T10:32:26.00089+00:00",
       "seenIds": [
         "guid:https://www.interconnects.ai/p/open-source-ai-without-jensen",
         "guid:https://www.interconnects.ai/p/how-well-can-we-measure-open-model",
@@ -311,8 +313,9 @@
     "MIT Technology Review AI": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-25T01:39:01.0145413+00:00",
+      "lastSuccessAt": "2026-11-25T10:32:25.0494199+00:00",
       "seenIds": [
+        "guid:https://www.technologyreview.com/?p=1149702",
         "guid:https://www.technologyreview.com/?p=1148091",
         "guid:https://www.technologyreview.com/?p=1149569",
         "guid:https://www.technologyreview.com/?p=1149399",
@@ -334,7 +337,7 @@
     "Mistral AI": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-25T01:39:04.8462859+00:00",
+      "lastSuccessAt": "2026-11-25T10:32:26.7242446+00:00",
       "seenIds": [
         "guid:https://mistral.ai/news/build-with-studio/",
         "guid:https://mistral.ai/news/mistral-large-4-oss/",
@@ -391,7 +394,7 @@
     "OpenAI": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-25T01:39:04.4627966+00:00",
+      "lastSuccessAt": "2026-11-25T10:32:26.1513796+00:00",
       "seenIds": [
         "guid:https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
         "guid:https://openai.com/index/searching-for-distant-planets-with-astra",
@@ -489,7 +492,7 @@
     "Simon Willison": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-25T01:38:58.0363381+00:00",
+      "lastSuccessAt": "2026-11-25T10:32:24.1314593+00:00",
       "seenIds": [
         "guid:https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
         "guid:https://simonwillison.net/2026/Nov/24/astra-historical-mystery/",
@@ -549,7 +552,7 @@
     "TechCrunch AI": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-25T01:38:59.7002204+00:00",
+      "lastSuccessAt": "2026-11-25T10:32:24.2060147+00:00",
       "seenIds": [
         "guid:https://techcrunch.com/?p=3191990",
         "guid:https://techcrunch.com/?p=3192058",
@@ -669,7 +672,7 @@
     "The Decoder": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-25T01:39:02.8770771+00:00",
+      "lastSuccessAt": "2026-11-25T10:32:25.868776+00:00",
       "seenIds": [
         "guid:https://the-decoder.com/?p=43286",
         "guid:https://the-decoder.com/?p=43279",
@@ -750,7 +753,7 @@
     "The Verge AI": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-25T01:39:00.1808156+00:00",
+      "lastSuccessAt": "2026-11-25T10:32:24.2947907+00:00",
       "seenIds": [
         "guid:https://www.theverge.com/?p=1041571",
         "guid:https://www.theverge.com/?p=1041417",
