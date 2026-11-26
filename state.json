@@ -4,8 +4,9 @@
     "AI News (Latent Space)": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-25T20:13:27.9850854+00:00",
+      "lastSuccessAt": "2026-11-26T02:52:31.3795579+00:00",
       "seenIds": [
+        "guid:urn:latent-space:post:post_b346515a-5480-4fa6-830e-a144eacab773",
         "guid:urn:latent-space:post:post_d721d443-2cdb-44ba-8da8-666b8311df8b",
         "guid:urn:latent-space:post:post_7482e5b8-089f-4955-b288-dfe47c243039",
         "guid:urn:latent-space:post:post_3976c9e6-ac0c-4bf2-92c8-c83510a92539",
@@ -38,7 +39,7 @@
     "Anthropic": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-25T20:13:37.178848+00:00",
+      "lastSuccessAt": "2026-11-26T02:52:35.3890397+00:00",
       "seenIds": [
         "url:fd109fdc361c3cd3d5827b792d4795d4",
         "url:e308a84a77ae00d83193b9513b7cd6eb",
@@ -66,7 +67,7 @@
     "Ars Technica AI": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-25T20:13:32.7306206+00:00",
+      "lastSuccessAt": "2026-11-26T02:52:32.7866176+00:00",
       "seenIds": [
         "guid:https://arstechnica.com/gadgets/2026/11/ars-live-recap-dont-expect-military-attacks-on-data-centers-to-stop/",
         "guid:https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/",
@@ -114,7 +115,7 @@
     "GitHub AI \u0026 ML": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-25T20:13:35.5252616+00:00",
+      "lastSuccessAt": "2026-11-26T02:52:34.4615806+00:00",
       "seenIds": [
         "guid:https://github.blog/?p=99982",
         "guid:https://github.blog/?p=100122",
@@ -132,7 +133,7 @@
     "Google DeepMind": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-25T20:13:36.0244769+00:00",
+      "lastSuccessAt": "2026-11-26T02:52:34.8220741+00:00",
       "seenIds": [
         "guid:https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/",
         "guid:https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
@@ -193,7 +194,7 @@
     "Hugging Face": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-25T20:13:36.6238442+00:00",
+      "lastSuccessAt": "2026-11-26T02:52:34.9943279+00:00",
       "seenIds": [
         "guid:https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
         "guid:https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
@@ -263,7 +264,7 @@
     },
     "Import AI": {
       "seeded": true,
-      "consecutiveFailures": 2,
+      "consecutiveFailures": 3,
       "lastSuccessAt": "2026-11-25T01:39:02.9400454+00:00",
       "seenIds": [
         "guid:https://importai.substack.com/p/import-ai-482-huawei-kernel-benchmarks",
@@ -292,7 +293,7 @@
     "Interconnects": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-25T20:13:35.0586946+00:00",
+      "lastSuccessAt": "2026-11-26T02:52:34.2006758+00:00",
       "seenIds": [
         "guid:https://www.interconnects.ai/p/open-source-ai-without-jensen",
         "guid:https://www.interconnects.ai/p/how-well-can-we-measure-open-model",
@@ -319,7 +320,7 @@
     "MIT Technology Review AI": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-25T20:13:32.851004+00:00",
+      "lastSuccessAt": "2026-11-26T02:52:32.950727+00:00",
       "seenIds": [
         "guid:https://www.technologyreview.com/?p=1149702",
         "guid:https://www.technologyreview.com/?p=1148091",
@@ -343,7 +344,7 @@
     "Mistral AI": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-25T20:13:36.8070279+00:00",
+      "lastSuccessAt": "2026-11-26T02:52:35.0655485+00:00",
       "seenIds": [
         "guid:https://mistral.ai/news/build-with-studio/",
         "guid:https://mistral.ai/news/mistral-large-4-oss/",
@@ -400,7 +401,7 @@
     "OpenAI": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-25T20:13:35.6815085+00:00",
+      "lastSuccessAt": "2026-11-26T02:52:34.5354502+00:00",
       "seenIds": [
         "guid:https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
         "guid:https://openai.com/index/searching-for-distant-planets-with-astra",
@@ -498,8 +499,9 @@
     "Simon Willison": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-25T20:13:28.1411833+00:00",
+      "lastSuccessAt": "2026-11-26T02:52:31.7288664+00:00",
       "seenIds": [
+        "guid:https://simonwillison.net/2026/Nov/25/scott-aaronson/",
         "guid:https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
         "guid:https://simonwillison.net/2026/Nov/24/astra-historical-mystery/",
         "guid:https://simonwillison.net/2026/Nov/24/datasette-charts/",
@@ -558,8 +560,9 @@
     "TechCrunch AI": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-25T20:13:29.2354716+00:00",
+      "lastSuccessAt": "2026-11-26T02:52:32.0197086+00:00",
       "seenIds": [
+        "guid:https://techcrunch.com/?p=3192614",
         "guid:https://techcrunch.com/?p=3192524",
         "guid:https://techcrunch.com/?p=3192475",
         "guid:https://techcrunch.com/?p=3192506",
@@ -686,8 +689,10 @@
     "The Decoder": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-25T20:13:34.8164343+00:00",
+      "lastSuccessAt": "2026-11-26T02:52:34.0886518+00:00",
       "seenIds": [
+        "guid:https://the-decoder.com/?p=43322",
+        "guid:https://the-decoder.com/?p=43318",
         "guid:https://the-decoder.com/?p=43315",
         "guid:https://the-decoder.com/?p=43312",
         "guid:https://the-decoder.com/?p=43305",
@@ -774,8 +779,9 @@
     "The Verge AI": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-25T20:13:32.0669713+00:00",
+      "lastSuccessAt": "2026-11-26T02:52:32.379731+00:00",
       "seenIds": [
+        "guid:https://www.theverge.com/?p=1042221",
         "guid:https://www.theverge.com/?p=1042278",
         "guid:https://www.theverge.com/?p=1042162",
         "guid:https://www.theverge.com/?p=1042071",
