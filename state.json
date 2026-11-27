@@ -4,7 +4,7 @@
     "AI News (Latent Space)": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-27T13:58:15.0145696+00:00",
+      "lastSuccessAt": "2026-11-27T22:43:57.2917438+00:00",
       "seenIds": [
         "guid:urn:latent-space:post:post_b346515a-5480-4fa6-830e-a144eacab773",
         "guid:urn:latent-space:post:post_d721d443-2cdb-44ba-8da8-666b8311df8b",
@@ -39,7 +39,7 @@
     "Anthropic": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-27T13:58:18.2558886+00:00",
+      "lastSuccessAt": "2026-11-27T22:44:00.5161545+00:00",
       "seenIds": [
         "url:fd109fdc361c3cd3d5827b792d4795d4",
         "url:e308a84a77ae00d83193b9513b7cd6eb",
@@ -67,7 +67,7 @@
     "Ars Technica AI": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-27T13:58:15.6268735+00:00",
+      "lastSuccessAt": "2026-11-27T22:43:58.2366796+00:00",
       "seenIds": [
         "guid:https://arstechnica.com/gadgets/2026/11/ars-live-recap-dont-expect-military-attacks-on-data-centers-to-stop/",
         "guid:https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/",
@@ -115,7 +115,7 @@
     "GitHub AI \u0026 ML": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-27T13:58:16.3665598+00:00",
+      "lastSuccessAt": "2026-11-27T22:43:59.7742781+00:00",
       "seenIds": [
         "guid:https://github.blog/?p=99982",
         "guid:https://github.blog/?p=100122",
@@ -133,7 +133,7 @@
     "Google DeepMind": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-27T13:58:16.528533+00:00",
+      "lastSuccessAt": "2026-11-27T22:43:59.9795808+00:00",
       "seenIds": [
         "guid:https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/",
         "guid:https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
@@ -194,7 +194,7 @@
     "Hugging Face": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-27T13:58:17.8966777+00:00",
+      "lastSuccessAt": "2026-11-27T22:44:00.0534303+00:00",
       "seenIds": [
         "guid:https://huggingface.co/blog/video-trainium3",
         "guid:https://huggingface.co/blog/training-swarms",
@@ -268,7 +268,7 @@
     },
     "Import AI": {
       "seeded": true,
-      "consecutiveFailures": 7,
+      "consecutiveFailures": 8,
       "lastSuccessAt": "2026-11-25T01:39:02.9400454+00:00",
       "seenIds": [
         "guid:https://importai.substack.com/p/import-ai-482-huawei-kernel-benchmarks",
@@ -297,7 +297,7 @@
     "Interconnects": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-27T13:58:16.2921533+00:00",
+      "lastSuccessAt": "2026-11-27T22:43:59.707457+00:00",
       "seenIds": [
         "guid:https://www.interconnects.ai/p/open-source-ai-without-jensen",
         "guid:https://www.interconnects.ai/p/how-well-can-we-measure-open-model",
@@ -324,7 +324,7 @@
     "MIT Technology Review AI": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-27T13:58:15.6939572+00:00",
+      "lastSuccessAt": "2026-11-27T22:43:58.2777331+00:00",
       "seenIds": [
         "guid:https://www.technologyreview.com/?p=1149702",
         "guid:https://www.technologyreview.com/?p=1148091",
@@ -348,7 +348,7 @@
     "Mistral AI": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-27T13:58:17.9706017+00:00",
+      "lastSuccessAt": "2026-11-27T22:44:00.237661+00:00",
       "seenIds": [
         "guid:https://mistral.ai/news/build-with-studio/",
         "guid:https://mistral.ai/news/mistral-large-4-oss/",
@@ -405,7 +405,7 @@
     "OpenAI": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-27T13:58:16.4398646+00:00",
+      "lastSuccessAt": "2026-11-27T22:43:59.8423968+00:00",
       "seenIds": [
         "guid:https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
         "guid:https://openai.com/index/searching-for-distant-planets-with-astra",
@@ -503,7 +503,7 @@
     "Simon Willison": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-27T13:58:15.1118405+00:00",
+      "lastSuccessAt": "2026-11-27T22:43:57.3809216+00:00",
       "seenIds": [
         "guid:https://simonwillison.net/2026/Nov/26/jack-despain-zhou/",
         "guid:https://simonwillison.net/2026/Nov/26/hn-50651685/",
@@ -569,7 +569,7 @@
     "TechCrunch AI": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-27T13:58:15.1987894+00:00",
+      "lastSuccessAt": "2026-11-27T22:43:57.4602906+00:00",
       "seenIds": [
         "guid:https://techcrunch.com/?p=3192803",
         "guid:https://techcrunch.com/?p=3190829",
@@ -700,8 +700,15 @@
     "The Decoder": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-27T13:58:16.1376547+00:00",
+      "lastSuccessAt": "2026-11-27T22:43:59.519479+00:00",
       "seenIds": [
+        "guid:https://the-decoder.com/?p=43380",
+        "guid:https://the-decoder.com/?p=43375",
+        "guid:https://the-decoder.com/?p=43363",
+        "guid:https://the-decoder.com/?p=43361",
+        "guid:https://the-decoder.com/?p=43364",
+        "guid:https://the-decoder.com/?p=43355",
+        "guid:https://the-decoder.com/?p=43354",
         "guid:https://the-decoder.com/?p=43346",
         "guid:https://the-decoder.com/?p=43343",
         "guid:https://the-decoder.com/?p=43340",
@@ -796,8 +803,9 @@
     "The Verge AI": {
       "seeded": true,
       "consecutiveFailures": 0,
-      "lastSuccessAt": "2026-11-27T13:58:15.264536+00:00",
+      "lastSuccessAt": "2026-11-27T22:43:57.9974043+00:00",
       "seenIds": [
+        "guid:https://www.theverge.com/?p=1041801",
         "guid:https://www.theverge.com/?p=1042620",
         "guid:https://www.theverge.com/?p=1042221",
         "guid:https://www.theverge.com/?p=1042278",
